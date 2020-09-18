@@ -1,13 +1,13 @@
 {
-  "name": "react",
+  "name": "cart-items",
   "version": "1.0.0",
-  "description": "React example starter project",
-  "keywords": [
-    "react",
-    "starter"
-  ],
+  "description": "",
+  "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "bootstrap": "4.1.1",
+    "jquery": "3.5.1",
+    "popper.js": "1.16.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-scripts": "3.4.3"

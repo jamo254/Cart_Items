@@ -1,11 +1,18 @@
-import React from "react";
+import React, { Component } from "react";
 import "./styles.css";
+import "./components/counter";
+import Counters from "./components/counters";
 
-export default function App() {
-  return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
-    </div>
-  );
+
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <h1>This is a Simple Component </h1>
+        <Counters />
+      </div>
+    );
+  }
 }
+
+export default App;
